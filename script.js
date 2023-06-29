@@ -33,6 +33,31 @@ let mySampleObject = {
 
 //Make sure to make at least 3 animal objects with these keys inside of the myZooAnimals array!
 
-let myZooAnimals;
+let myZooAnimals = [
+  {
+    animalType: 'mammal',
+    name: 'deer',
+    age: '4',
+    pictureURL: 'https://images.unsplash.com/photo-1484406566174-9da000fda645?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=778&q=80',
+  }, 
+  {
+    animalType: 'mammal',
+    name: 'fox',
+    age: '2',
+    pictureURL: 'https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80',
+  }, 
+  {
+    animalType: 'mammal',
+    name: 'lion',
+    age: '12',
+    pictureURL: 'https://images.unsplash.com/photo-1568265112889-c9d3fc50a281?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80',
+  }, 
+  {
+    animalType: 'reptile',
+    name: 'turtle',
+    age: '87',
+    pictureURL: 'https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80',
+  }, 
+];
 
 //END OF ASSIGNMENT
